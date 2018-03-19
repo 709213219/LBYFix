@@ -1,0 +1,731 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		391B62AE205BD5E5001F0E4F /* LBYFix.m in Sources */ = {isa = PBXBuildFile; fileRef = 391B62AD205BD5E5001F0E4F /* LBYFix.m */; };
+		391B62B1205BD5FF001F0E4F /* LBYFixDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 391B62B0205BD5FF001F0E4F /* LBYFixDemo.m */; };
+		391B62B4205BDA08001F0E4F /* InstanceMethodCrash.js in Resources */ = {isa = PBXBuildFile; fileRef = 391B62B3205BDA08001F0E4F /* InstanceMethodCrash.js */; };
+		391B62B6205BDEB2001F0E4F /* ClassMethodCrash.js in Resources */ = {isa = PBXBuildFile; fileRef = 391B62B5205BDEB2001F0E4F /* ClassMethodCrash.js */; };
+		39B8B851205F2A54003FBC9C /* LBYFixDemo2.m in Sources */ = {isa = PBXBuildFile; fileRef = 39B8B850205F2A54003FBC9C /* LBYFixDemo2.m */; };
+		39B8B853205F2B64003FBC9C /* RunBeforeInstanceMethod.js in Resources */ = {isa = PBXBuildFile; fileRef = 39B8B852205F2B64003FBC9C /* RunBeforeInstanceMethod.js */; };
+		39B8B857205F2E80003FBC9C /* RunAfterClassMethod.js in Resources */ = {isa = PBXBuildFile; fileRef = 39B8B856205F2E80003FBC9C /* RunAfterClassMethod.js */; };
+		39B8B859205F54C6003FBC9C /* RunAfterInstanceMethod.js in Resources */ = {isa = PBXBuildFile; fileRef = 39B8B858205F54C6003FBC9C /* RunAfterInstanceMethod.js */; };
+		39B8B85B205F54D4003FBC9C /* RunBeforeClassMethod.js in Resources */ = {isa = PBXBuildFile; fileRef = 39B8B85A205F54D4003FBC9C /* RunBeforeClassMethod.js */; };
+		39B8B85F205F5AA4003FBC9C /* RunInstanceMethodHasNoParams.js in Resources */ = {isa = PBXBuildFile; fileRef = 39B8B85E205F5AA4003FBC9C /* RunInstanceMethodHasNoParams.js */; };
+		39B8B861205F5AB6003FBC9C /* RunInstanceMethodHasOneParam.js in Resources */ = {isa = PBXBuildFile; fileRef = 39B8B860205F5AB6003FBC9C /* RunInstanceMethodHasOneParam.js */; };
+		39B8B863205F5AC8003FBC9C /* RunInstanceMethodHasTwoParams.js in Resources */ = {isa = PBXBuildFile; fileRef = 39B8B862205F5AC8003FBC9C /* RunInstanceMethodHasTwoParams.js */; };
+		39B8B865205F5AD9003FBC9C /* RunInstanceMethodHasMultipleParams.js in Resources */ = {isa = PBXBuildFile; fileRef = 39B8B864205F5AD9003FBC9C /* RunInstanceMethodHasMultipleParams.js */; };
+		39B8B867205F5AEB003FBC9C /* RunClassMethodHasNoParams.js in Resources */ = {isa = PBXBuildFile; fileRef = 39B8B866205F5AEB003FBC9C /* RunClassMethodHasNoParams.js */; };
+		39B8B869205F5AFA003FBC9C /* RunClassMethodHasOneParam.js in Resources */ = {isa = PBXBuildFile; fileRef = 39B8B868205F5AFA003FBC9C /* RunClassMethodHasOneParam.js */; };
+		39B8B86B205F5B07003FBC9C /* RunClassMethodHasTwoParams.js in Resources */ = {isa = PBXBuildFile; fileRef = 39B8B86A205F5B07003FBC9C /* RunClassMethodHasTwoParams.js */; };
+		39B8B86D205F5B18003FBC9C /* RunClassMethodHasMultipleParams.js in Resources */ = {isa = PBXBuildFile; fileRef = 39B8B86C205F5B18003FBC9C /* RunClassMethodHasMultipleParams.js */; };
+		39B8B870205F5B2F003FBC9C /* LBYFixDemo3.m in Sources */ = {isa = PBXBuildFile; fileRef = 39B8B86F205F5B2F003FBC9C /* LBYFixDemo3.m */; };
+		39C8010520568B93003F5691 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C8010420568B93003F5691 /* AppDelegate.m */; };
+		39C8010820568B93003F5691 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C8010720568B93003F5691 /* ViewController.m */; };
+		39C8010B20568B93003F5691 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39C8010920568B93003F5691 /* Main.storyboard */; };
+		39C8010D20568B93003F5691 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39C8010C20568B93003F5691 /* Assets.xcassets */; };
+		39C8011020568B93003F5691 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39C8010E20568B93003F5691 /* LaunchScreen.storyboard */; };
+		39C8011320568B93003F5691 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C8011220568B93003F5691 /* main.m */; };
+		39C8011D20568B93003F5691 /* LBYFixTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C8011C20568B93003F5691 /* LBYFixTests.m */; };
+		39C8012820568B93003F5691 /* LBYFixUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C8012720568B93003F5691 /* LBYFixUITests.m */; };
+		FBBA28B76D0F42B89557B2E2 /* libPods-LBYFix.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B36BD45514CFD7BC84D4B2BD /* libPods-LBYFix.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39C8011920568B93003F5691 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39C800F820568B93003F5691 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39C800FF20568B93003F5691;
+			remoteInfo = LBYFix;
+		};
+		39C8012420568B93003F5691 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39C800F820568B93003F5691 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39C800FF20568B93003F5691;
+			remoteInfo = LBYFix;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		391B62AC205BD5E5001F0E4F /* LBYFix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBYFix.h; sourceTree = "<group>"; };
+		391B62AD205BD5E5001F0E4F /* LBYFix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBYFix.m; sourceTree = "<group>"; };
+		391B62AF205BD5FF001F0E4F /* LBYFixDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBYFixDemo.h; sourceTree = "<group>"; };
+		391B62B0205BD5FF001F0E4F /* LBYFixDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBYFixDemo.m; sourceTree = "<group>"; };
+		391B62B3205BDA08001F0E4F /* InstanceMethodCrash.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = InstanceMethodCrash.js; sourceTree = "<group>"; };
+		391B62B5205BDEB2001F0E4F /* ClassMethodCrash.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = ClassMethodCrash.js; sourceTree = "<group>"; };
+		39B8B84F205F2A54003FBC9C /* LBYFixDemo2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBYFixDemo2.h; sourceTree = "<group>"; };
+		39B8B850205F2A54003FBC9C /* LBYFixDemo2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBYFixDemo2.m; sourceTree = "<group>"; };
+		39B8B852205F2B64003FBC9C /* RunBeforeInstanceMethod.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = RunBeforeInstanceMethod.js; sourceTree = "<group>"; };
+		39B8B856205F2E80003FBC9C /* RunAfterClassMethod.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = RunAfterClassMethod.js; sourceTree = "<group>"; };
+		39B8B858205F54C6003FBC9C /* RunAfterInstanceMethod.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = RunAfterInstanceMethod.js; sourceTree = "<group>"; };
+		39B8B85A205F54D4003FBC9C /* RunBeforeClassMethod.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = RunBeforeClassMethod.js; sourceTree = "<group>"; };
+		39B8B85E205F5AA4003FBC9C /* RunInstanceMethodHasNoParams.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = RunInstanceMethodHasNoParams.js; sourceTree = "<group>"; };
+		39B8B860205F5AB6003FBC9C /* RunInstanceMethodHasOneParam.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = RunInstanceMethodHasOneParam.js; sourceTree = "<group>"; };
+		39B8B862205F5AC8003FBC9C /* RunInstanceMethodHasTwoParams.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = RunInstanceMethodHasTwoParams.js; sourceTree = "<group>"; };
+		39B8B864205F5AD9003FBC9C /* RunInstanceMethodHasMultipleParams.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = RunInstanceMethodHasMultipleParams.js; sourceTree = "<group>"; };
+		39B8B866205F5AEB003FBC9C /* RunClassMethodHasNoParams.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = RunClassMethodHasNoParams.js; sourceTree = "<group>"; };
+		39B8B868205F5AFA003FBC9C /* RunClassMethodHasOneParam.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = RunClassMethodHasOneParam.js; sourceTree = "<group>"; };
+		39B8B86A205F5B07003FBC9C /* RunClassMethodHasTwoParams.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = RunClassMethodHasTwoParams.js; sourceTree = "<group>"; };
+		39B8B86C205F5B18003FBC9C /* RunClassMethodHasMultipleParams.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = RunClassMethodHasMultipleParams.js; sourceTree = "<group>"; };
+		39B8B86E205F5B2F003FBC9C /* LBYFixDemo3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBYFixDemo3.h; sourceTree = "<group>"; };
+		39B8B86F205F5B2F003FBC9C /* LBYFixDemo3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBYFixDemo3.m; sourceTree = "<group>"; };
+		39C8010020568B93003F5691 /* LBYFix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LBYFix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39C8010320568B93003F5691 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		39C8010420568B93003F5691 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		39C8010620568B93003F5691 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		39C8010720568B93003F5691 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		39C8010A20568B93003F5691 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		39C8010C20568B93003F5691 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39C8010F20568B93003F5691 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		39C8011120568B93003F5691 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39C8011220568B93003F5691 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		39C8011820568B93003F5691 /* LBYFixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LBYFixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39C8011C20568B93003F5691 /* LBYFixTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBYFixTests.m; sourceTree = "<group>"; };
+		39C8011E20568B93003F5691 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39C8012320568B93003F5691 /* LBYFixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LBYFixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39C8012720568B93003F5691 /* LBYFixUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBYFixUITests.m; sourceTree = "<group>"; };
+		39C8012920568B93003F5691 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A39E8027E185EF5CDC9BB60 /* Pods-LBYFix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBYFix.release.xcconfig"; path = "Pods/Target Support Files/Pods-LBYFix/Pods-LBYFix.release.xcconfig"; sourceTree = "<group>"; };
+		B36BD45514CFD7BC84D4B2BD /* libPods-LBYFix.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LBYFix.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEBBEAFF662704FB2AF1A1D5 /* Pods-LBYFix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBYFix.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LBYFix/Pods-LBYFix.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39C800FD20568B93003F5691 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBBA28B76D0F42B89557B2E2 /* libPods-LBYFix.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39C8011520568B93003F5691 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39C8012020568B93003F5691 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		145B18539B4461BAB41930DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B36BD45514CFD7BC84D4B2BD /* libPods-LBYFix.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		391B62AB205BD5E5001F0E4F /* LBYFix */ = {
+			isa = PBXGroup;
+			children = (
+				391B62AC205BD5E5001F0E4F /* LBYFix.h */,
+				391B62AD205BD5E5001F0E4F /* LBYFix.m */,
+			);
+			path = LBYFix;
+			sourceTree = "<group>";
+		};
+		391B62B2205BD9F3001F0E4F /* JS */ = {
+			isa = PBXGroup;
+			children = (
+				391B62B3205BDA08001F0E4F /* InstanceMethodCrash.js */,
+				391B62B5205BDEB2001F0E4F /* ClassMethodCrash.js */,
+				39B8B852205F2B64003FBC9C /* RunBeforeInstanceMethod.js */,
+				39B8B856205F2E80003FBC9C /* RunAfterClassMethod.js */,
+				39B8B858205F54C6003FBC9C /* RunAfterInstanceMethod.js */,
+				39B8B85A205F54D4003FBC9C /* RunBeforeClassMethod.js */,
+				39B8B85E205F5AA4003FBC9C /* RunInstanceMethodHasNoParams.js */,
+				39B8B860205F5AB6003FBC9C /* RunInstanceMethodHasOneParam.js */,
+				39B8B862205F5AC8003FBC9C /* RunInstanceMethodHasTwoParams.js */,
+				39B8B864205F5AD9003FBC9C /* RunInstanceMethodHasMultipleParams.js */,
+				39B8B866205F5AEB003FBC9C /* RunClassMethodHasNoParams.js */,
+				39B8B868205F5AFA003FBC9C /* RunClassMethodHasOneParam.js */,
+				39B8B86A205F5B07003FBC9C /* RunClassMethodHasTwoParams.js */,
+				39B8B86C205F5B18003FBC9C /* RunClassMethodHasMultipleParams.js */,
+			);
+			path = JS;
+			sourceTree = "<group>";
+		};
+		3993579AE45920B05BDE9F2F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BEBBEAFF662704FB2AF1A1D5 /* Pods-LBYFix.debug.xcconfig */,
+				3A39E8027E185EF5CDC9BB60 /* Pods-LBYFix.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		39C800F720568B93003F5691 = {
+			isa = PBXGroup;
+			children = (
+				39C8010220568B93003F5691 /* LBYFix */,
+				39C8011B20568B93003F5691 /* LBYFixTests */,
+				39C8012620568B93003F5691 /* LBYFixUITests */,
+				39C8010120568B93003F5691 /* Products */,
+				3993579AE45920B05BDE9F2F /* Pods */,
+				145B18539B4461BAB41930DD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		39C8010120568B93003F5691 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39C8010020568B93003F5691 /* LBYFix.app */,
+				39C8011820568B93003F5691 /* LBYFixTests.xctest */,
+				39C8012320568B93003F5691 /* LBYFixUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39C8010220568B93003F5691 /* LBYFix */ = {
+			isa = PBXGroup;
+			children = (
+				391B62B2205BD9F3001F0E4F /* JS */,
+				391B62AB205BD5E5001F0E4F /* LBYFix */,
+				39C8010320568B93003F5691 /* AppDelegate.h */,
+				39C8010420568B93003F5691 /* AppDelegate.m */,
+				39C8010620568B93003F5691 /* ViewController.h */,
+				39C8010720568B93003F5691 /* ViewController.m */,
+				39C8010920568B93003F5691 /* Main.storyboard */,
+				39C8010C20568B93003F5691 /* Assets.xcassets */,
+				39C8010E20568B93003F5691 /* LaunchScreen.storyboard */,
+				39C8011120568B93003F5691 /* Info.plist */,
+				39C8011220568B93003F5691 /* main.m */,
+				391B62AF205BD5FF001F0E4F /* LBYFixDemo.h */,
+				391B62B0205BD5FF001F0E4F /* LBYFixDemo.m */,
+				39B8B84F205F2A54003FBC9C /* LBYFixDemo2.h */,
+				39B8B850205F2A54003FBC9C /* LBYFixDemo2.m */,
+				39B8B86E205F5B2F003FBC9C /* LBYFixDemo3.h */,
+				39B8B86F205F5B2F003FBC9C /* LBYFixDemo3.m */,
+			);
+			path = LBYFix;
+			sourceTree = "<group>";
+		};
+		39C8011B20568B93003F5691 /* LBYFixTests */ = {
+			isa = PBXGroup;
+			children = (
+				39C8011C20568B93003F5691 /* LBYFixTests.m */,
+				39C8011E20568B93003F5691 /* Info.plist */,
+			);
+			path = LBYFixTests;
+			sourceTree = "<group>";
+		};
+		39C8012620568B93003F5691 /* LBYFixUITests */ = {
+			isa = PBXGroup;
+			children = (
+				39C8012720568B93003F5691 /* LBYFixUITests.m */,
+				39C8012920568B93003F5691 /* Info.plist */,
+			);
+			path = LBYFixUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39C800FF20568B93003F5691 /* LBYFix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39C8012C20568B93003F5691 /* Build configuration list for PBXNativeTarget "LBYFix" */;
+			buildPhases = (
+				A31F695B1E083EF3FFE42FF5 /* [CP] Check Pods Manifest.lock */,
+				39C800FC20568B93003F5691 /* Sources */,
+				39C800FD20568B93003F5691 /* Frameworks */,
+				39C800FE20568B93003F5691 /* Resources */,
+				BE95A2D9DC19AB6AA920FAEE /* [CP] Embed Pods Frameworks */,
+				0F4314F754799D813FDC162E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LBYFix;
+			productName = LBYFix;
+			productReference = 39C8010020568B93003F5691 /* LBYFix.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39C8011720568B93003F5691 /* LBYFixTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39C8012F20568B93003F5691 /* Build configuration list for PBXNativeTarget "LBYFixTests" */;
+			buildPhases = (
+				39C8011420568B93003F5691 /* Sources */,
+				39C8011520568B93003F5691 /* Frameworks */,
+				39C8011620568B93003F5691 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39C8011A20568B93003F5691 /* PBXTargetDependency */,
+			);
+			name = LBYFixTests;
+			productName = LBYFixTests;
+			productReference = 39C8011820568B93003F5691 /* LBYFixTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		39C8012220568B93003F5691 /* LBYFixUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39C8013220568B93003F5691 /* Build configuration list for PBXNativeTarget "LBYFixUITests" */;
+			buildPhases = (
+				39C8011F20568B93003F5691 /* Sources */,
+				39C8012020568B93003F5691 /* Frameworks */,
+				39C8012120568B93003F5691 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39C8012520568B93003F5691 /* PBXTargetDependency */,
+			);
+			name = LBYFixUITests;
+			productName = LBYFixUITests;
+			productReference = 39C8012320568B93003F5691 /* LBYFixUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39C800F820568B93003F5691 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = acnc;
+				TargetAttributes = {
+					39C800FF20568B93003F5691 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					39C8011720568B93003F5691 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 39C800FF20568B93003F5691;
+					};
+					39C8012220568B93003F5691 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 39C800FF20568B93003F5691;
+					};
+				};
+			};
+			buildConfigurationList = 39C800FB20568B93003F5691 /* Build configuration list for PBXProject "LBYFix" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39C800F720568B93003F5691;
+			productRefGroup = 39C8010120568B93003F5691 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39C800FF20568B93003F5691 /* LBYFix */,
+				39C8011720568B93003F5691 /* LBYFixTests */,
+				39C8012220568B93003F5691 /* LBYFixUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39C800FE20568B93003F5691 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39B8B865205F5AD9003FBC9C /* RunInstanceMethodHasMultipleParams.js in Resources */,
+				39B8B857205F2E80003FBC9C /* RunAfterClassMethod.js in Resources */,
+				39B8B859205F54C6003FBC9C /* RunAfterInstanceMethod.js in Resources */,
+				391B62B4205BDA08001F0E4F /* InstanceMethodCrash.js in Resources */,
+				39B8B867205F5AEB003FBC9C /* RunClassMethodHasNoParams.js in Resources */,
+				39B8B853205F2B64003FBC9C /* RunBeforeInstanceMethod.js in Resources */,
+				39B8B86D205F5B18003FBC9C /* RunClassMethodHasMultipleParams.js in Resources */,
+				39B8B863205F5AC8003FBC9C /* RunInstanceMethodHasTwoParams.js in Resources */,
+				39B8B85B205F54D4003FBC9C /* RunBeforeClassMethod.js in Resources */,
+				39C8011020568B93003F5691 /* LaunchScreen.storyboard in Resources */,
+				39B8B869205F5AFA003FBC9C /* RunClassMethodHasOneParam.js in Resources */,
+				39B8B85F205F5AA4003FBC9C /* RunInstanceMethodHasNoParams.js in Resources */,
+				391B62B6205BDEB2001F0E4F /* ClassMethodCrash.js in Resources */,
+				39B8B861205F5AB6003FBC9C /* RunInstanceMethodHasOneParam.js in Resources */,
+				39C8010D20568B93003F5691 /* Assets.xcassets in Resources */,
+				39B8B86B205F5B07003FBC9C /* RunClassMethodHasTwoParams.js in Resources */,
+				39C8010B20568B93003F5691 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39C8011620568B93003F5691 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39C8012120568B93003F5691 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F4314F754799D813FDC162E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LBYFix/Pods-LBYFix-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A31F695B1E083EF3FFE42FF5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LBYFix-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE95A2D9DC19AB6AA920FAEE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LBYFix/Pods-LBYFix-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39C800FC20568B93003F5691 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39C8010820568B93003F5691 /* ViewController.m in Sources */,
+				391B62AE205BD5E5001F0E4F /* LBYFix.m in Sources */,
+				39B8B870205F5B2F003FBC9C /* LBYFixDemo3.m in Sources */,
+				391B62B1205BD5FF001F0E4F /* LBYFixDemo.m in Sources */,
+				39C8011320568B93003F5691 /* main.m in Sources */,
+				39C8010520568B93003F5691 /* AppDelegate.m in Sources */,
+				39B8B851205F2A54003FBC9C /* LBYFixDemo2.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39C8011420568B93003F5691 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39C8011D20568B93003F5691 /* LBYFixTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39C8011F20568B93003F5691 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39C8012820568B93003F5691 /* LBYFixUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39C8011A20568B93003F5691 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39C800FF20568B93003F5691 /* LBYFix */;
+			targetProxy = 39C8011920568B93003F5691 /* PBXContainerItemProxy */;
+		};
+		39C8012520568B93003F5691 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39C800FF20568B93003F5691 /* LBYFix */;
+			targetProxy = 39C8012420568B93003F5691 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		39C8010920568B93003F5691 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39C8010A20568B93003F5691 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		39C8010E20568B93003F5691 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39C8010F20568B93003F5691 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39C8012A20568B93003F5691 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		39C8012B20568B93003F5691 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39C8012D20568B93003F5691 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEBBEAFF662704FB2AF1A1D5 /* Pods-LBYFix.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CXJ8TF54LW;
+				INFOPLIST_FILE = LBYFix/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acnc.LBYFix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39C8012E20568B93003F5691 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A39E8027E185EF5CDC9BB60 /* Pods-LBYFix.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CXJ8TF54LW;
+				INFOPLIST_FILE = LBYFix/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acnc.LBYFix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		39C8013020568B93003F5691 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LBYFixTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acnc.LBYFixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LBYFix.app/LBYFix";
+			};
+			name = Debug;
+		};
+		39C8013120568B93003F5691 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LBYFixTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acnc.LBYFixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LBYFix.app/LBYFix";
+			};
+			name = Release;
+		};
+		39C8013320568B93003F5691 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LBYFixUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acnc.LBYFixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LBYFix;
+			};
+			name = Debug;
+		};
+		39C8013420568B93003F5691 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LBYFixUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acnc.LBYFixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LBYFix;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39C800FB20568B93003F5691 /* Build configuration list for PBXProject "LBYFix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C8012A20568B93003F5691 /* Debug */,
+				39C8012B20568B93003F5691 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39C8012C20568B93003F5691 /* Build configuration list for PBXNativeTarget "LBYFix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C8012D20568B93003F5691 /* Debug */,
+				39C8012E20568B93003F5691 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39C8012F20568B93003F5691 /* Build configuration list for PBXNativeTarget "LBYFixTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C8013020568B93003F5691 /* Debug */,
+				39C8013120568B93003F5691 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39C8013220568B93003F5691 /* Build configuration list for PBXNativeTarget "LBYFixUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C8013320568B93003F5691 /* Debug */,
+				39C8013420568B93003F5691 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39C800F820568B93003F5691 /* Project object */;
+}

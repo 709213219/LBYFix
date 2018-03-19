@@ -1,0 +1,1 @@
+runClassMethod('LBYFixDemo3', 'classMethodHasMultipleParams:offset:inset:', new Array({location: 32, length: 33}, {horizontal: 34.34, vertical: 35.35}, {top: 36.36, left: 37.37, bottom: 38.38, right: 39.39}))
